@@ -1,6 +1,4 @@
-# React Tour Guide
-
-In this app, I've used most of the Reactjs hooks.
+# React Accordion
 
 ## Demo
 
@@ -35,8 +33,6 @@ Start the server
 ## Tech Stack
 
 **Client:** React
-
-**Server:** Firebase
 
 ## 🛠 Skills
 
