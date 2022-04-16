@@ -1,8 +1,18 @@
+import questions from "./data";
+import SingleQuestion from "./Components/SingleQuestion";
+
 function App() {
   return (
-    <div className="App">
-      <p>Hello</p>
-    </div>
+    <main>
+      <div className="container">
+        <h3>Questions and Answers About Login</h3>
+        <section className="info">
+          {questions.map((question) => {
+            return <SingleQuestion key={question.id} {...question} />;
+          })}
+        </section>
+      </div>
+    </main>
   );
 }
 
